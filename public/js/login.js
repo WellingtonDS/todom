@@ -39,4 +39,4 @@ formLogin.addEventListener(
         evt.preventDefault();
         login(tfEmail.value, tfSenha.value);
     }
-)
+)   
