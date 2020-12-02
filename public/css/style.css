@@ -33,13 +33,37 @@ main {
 	background-color: #9c4dcc;
 	padding: 20px;
 	width: 400px;;
+	display: none;
 }
 
-form{
+#formLogin {
+	display: flex;
+	flex-direction: column;
+}
+
+#formLogin input {
+	padding: 5px;
+	display: block;
+	font-size: 1rem;
+}
+
+#formLogin label {
+	margin-bottom: 10px;
+}
+
+#formLogin button {
+	padding: 10px;
+	font-size: 1rem;
+	border: none;
+	background-color: #ac4ee6;
+	color: #FFF;
+}
+
+#form{
 	display: flex;
 }
 
-form input {
+#form input {
 	display: block;
 	width:calc(100% - 100px);
 	font-size: 1rem;
@@ -47,7 +71,7 @@ form input {
 	align-items: stretch;
 }
 
-form button {
+#form button {
 	width:100px;
 	display: block;
 	font-size: .7rem;
